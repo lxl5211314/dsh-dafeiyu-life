@@ -1,0 +1,28 @@
+# 依赖与产物
+node_modules/
+*.log
+*.bak
+*.bak-*
+.venv/
+__pycache__/
+*.pyc
+
+# 模型与音色资产（体积大 / 个人资产，不进仓库）
+*.ckpt
+*.pth
+*.onnx
+models/
+rvc/
+GPT-SoVITS/
+
+# 本地密钥与配置（绝对不要提交）
+.env
+*.env
+config.local.json
+.credentials*
+cookies.txt
+
+# 临时 / 抓取中间产物
+tmp/
+*.tmp
+douyin-qr.png
